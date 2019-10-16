@@ -1,0 +1,148 @@
+/* custom fonts */
+	/* Nav Bar */ @font-face{
+	font-family: "Silom";
+	src: url("fonts/silom/SilomBol.ttf");
+	}
+
+	/* Titles */ @font-face {
+	font-family: "SpaceMono";
+	src: url(fonts/Space_Mono/SpaceMono-Regular);
+	}
+
+	/* Body */ @font-face {
+	font-family: "ChakraPetch";
+	src: url(fonts/Chakra_Petch/ChakraPetch-Regular.ttf);
+	}
+
+/* site banner */
+	img#banner {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	}
+
+/* class = . | id = # */
+
+/* regular elements */
+	/* regular divider */
+		div{
+	width: 65%;
+	margin: auto;
+	padding: 20px;
+	border: 1px hidden;
+	background-color: none;
+		}
+
+	/* regular link */
+		a{
+	font-family: "ChakraPetch", Arial, sans-serif;
+	color: black;
+		}
+
+	/* regular body */
+		body{
+	font-family: "ChakraPetch", Arial, sans-serif;
+	color: black;
+	background-image: linear-gradient(#FFF, #EFFEF9);
+		}
+
+	/* regular paragraph */
+		p{
+	font-family: "ChakraPetch", Arial, sans-serif;
+	/**/
+	/**/
+		}
+
+/* navigation elements */
+	/* navigation divider */
+		div#nav {
+		width: 65%
+		margin: 0px;
+		padding-top: 0px;
+		padding-bottom: 0px;
+		padding-left: 20px;
+		padding-right: 20px;
+		border: 1px hidden;
+		background-color: #EFFEF9;
+		}
+
+	/* navigation list */
+		ul#nav {
+		list-style-type: none;
+		margin: 0px;
+		padding: auto;
+		text-align: center;
+		text-decoration: none;
+		background-color: #EFFEF9;
+		}
+
+	/* navigation items */
+		li#nav {
+		display: inline;
+		text-align: center;
+		text-decoration: none;
+		color: black;
+		transition: 0.1s ease;
+		}
+ 	
+ 	/* navigation links */
+		li a#nav {
+		font-family: "silom", Arial, sans-serif;
+		font-size: 20px;
+		display: inline-block;
+		padding: 10px;
+		border: 1px hidden;
+		text-align: center;
+		text-decoration: none;
+		color: gray;
+		background-image: linear-gradient(#CEFEEE, #EFFEF9);
+		}
+
+	/* navigation link hover */
+		li a#nav:hover {
+		display: inline-block;
+		padding: 10px;
+		border: 1px hidden;
+		color: black;
+		background-image: linear-gradient(#CEFEEE, #8AFEC8);
+		}
+	
+	/* navigation active link */
+		li a#nav.active {
+		margin: auto;
+		padding: 10px;
+		color: black;
+		background-image: linear-gradient(#CEFEEE, #CEFEEE);
+		}	
+
+/* main div */
+	div#main {
+	width: 65%;
+	height: 1000px;CEFEEE
+	margin: auto;
+	padding: 20px;
+	border: 1px hidden;
+	text-align: center;
+	background-image: linear-gradient(#CEFEEE, #FFFFFF);
+	}
+
+/* gacha div 370 x 115 */
+	div#updates {
+	width: auto;
+	height: auto;
+	padding: 50px;
+	border: 1px hidden;
+	text-align: center;
+	background-color: lightgray;
+	}
+
+/* updates div */
+	div#news {
+	width: auto;
+	height: auto;
+	margin-top: 10px;
+	padding: 50px;
+	border: 1px hidden;
+	text-align: center;
+	background-color: lightgray;
+	}

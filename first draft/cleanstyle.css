@@ -1,0 +1,94 @@
+/* regular body */
+body {
+	font-family: "WorkSans", Arial, sans-serif;
+	color: black;
+	background-color:bisque;
+}
+
+/* custom fonts */
+@font-face{
+	font-family: "Itim";
+	src: url("fonts/Itim-Regular.ttf");
+}
+
+@font-face {
+	font-family: "WorkSans";
+	src: url(fonts/WorkSans-Regular.ttf);
+}
+
+/* class = . | id = # */
+/* regular divider */
+div#classic {
+	width: auto;
+	margin: auto;
+	padding: 50px;
+	border: 1px hidden;
+	border-radius: 10px;
+	background-color: white;
+}
+
+/* regular link */
+a#classic{
+
+}
+
+/* site banner */
+img#banner {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* navigation divider */
+div#nav {
+	display: inline-block;
+	position: sticky;
+	width: 100%;
+	margin: 0;
+	padding: 0px;
+	border: 1px hidden;
+	background-color: bisque;
+
+}
+
+/* navigation list */
+ul#nav {
+	list-style-type: none;
+	margin: auto;
+	padding: auto;
+	background-color: bisque;
+	text-align: center;
+	text-decoration: none;
+}
+
+/* navigation items */
+li#nav {
+	color: black;
+	text-align: center;
+	display: inline;
+	text-decoration: none;
+}
+
+ /* navigation links */
+li a#nav {
+	display: inline-block;
+	padding: 10px;
+	text-decoration: none;
+	color: black;
+	background-color: bisque;
+	transition: all 0.5s ease;
+
+}
+
+/* navigation link hover */
+li a#nav:hover {
+	background-color: violet;
+	color: white;
+	transition: all 0.5s ease;
+}
+
+/* active navigation list link */
+li a#nav.active {
+	background-color: orange;
+	color: purple;
+}
